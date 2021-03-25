@@ -1,0 +1,55 @@
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	background: #FF1493;
+	padding: 5px;
+
+}
+body{
+	background: linear-gradient(to bottom right, lemonchiffon, #FFFFFF);
+	padding: 10px;
+	font-family: Verdana;
+}
+.col1{
+	width: 48%;
+	float: left;
+}
+.col2{
+	width: 48%;
+	float: right;
+}
+
+.im1{
+	max-width: 40%;
+	box-shadow: 16px 16px 16px #D3D3D3;
+	transform: rotate(10deg);
+}
+
+.im1{
+	height: 300px;
+	position: absolute;
+	left: 200px;
+	animation: slide 5s infinite;
+}
+.im1:hover{
+	background-color: #BDB76B;
+}
+.ln1{
+	padding: 2px;
+	background-color: #AFEEEE;
+	font-family: Impact;
+	color: #FF1493;
+
+}
+.ln1:hover{
+	transition: 1s;
+	background-color: #00FFFF;
+	padding: 8px;
+	color: #FF0000;
+}
+
+@keyframes slide{
+	0% {left: 200px}
+	50% {left: 880px}
+	100% {left: 200px}
+}

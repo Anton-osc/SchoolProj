@@ -1,0 +1,70 @@
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	background: #FF1493;
+	padding: 5px;
+
+}
+body{
+	background: linear-gradient(to bottom right, lemonchiffon, #FFFFFF);
+	padding: 10px;
+	font-family: Verdana;
+}
+.col1{
+	width: 48%;
+	float: left;
+}
+.col2{
+	width: 48%;
+	float: right;
+}
+
+.im1{
+	position: absolute;
+	right: 130px;
+	top: 150px;
+	max-width: 15%;
+	box-shadow: 16px 16px 16px #D3D3D3;
+	transform: rotate(-10deg);
+}
+.im1:hover{
+	transform: rotate(10deg);
+	transition: 1s; 
+	
+}
+.rob1{
+	height: 100px;
+	position: absolute;
+	left: -200px;
+	animation: slide 5s infinite;
+
+}
+.ln1{
+	padding-left: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 4px;
+	background-color: #AFEEEE;
+	font-family: Impact;
+	color: #FF1493;
+	
+
+}
+@keyframes slide{
+	0% {left: -200px}
+	50% {left: 0}
+	100% {left: -200px}
+}
+h2{
+	color: #FFFFFF;
+	background: #AFEEEE;
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+	box-shadow: 2px 2px 2px #C0C0C0;
+	text-align: center;
+
+}
+
+	
+
+
